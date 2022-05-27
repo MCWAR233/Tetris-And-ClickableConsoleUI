@@ -52,6 +52,7 @@ unsigned int frame = 1;
 unsigned long long totalframe = 0;  // 总帧数
 
 
+// 各个方块的位置映射表（注意用unsigned int）
 unsigned int style[] = {
 0x00010203, 0x00102030, 0x00010203, 0x00102030,
 0x00101121, 0x10011102, 0x00101121, 0x10011102,
